@@ -1,0 +1,116 @@
+.colaborador {
+    width: 280px;
+    margin-bottom: 24px;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    border-radius: 10px;
+}
+
+.colaborador:hover {
+    transform: scale(1.05) rotate(3deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.colaborador .encabezado {
+    background-color: #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+    transition: background-color 0.5s ease;
+}
+
+.colaborador:hover .encabezado {
+    background-color: #d1e0f7;
+}
+
+.colaborador img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+    transition: transform 0.5s ease;
+}
+
+.colaborador:hover img {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.colaborador .info {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    min-height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+.colaborador:hover .info {
+    background-color: #e6f7ff;
+}
+
+.colaborador .info h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    transition: color 0.5s ease;
+}
+
+.colaborador:hover .info h4 {
+    color: #003366;
+}
+
+.colaborador .info h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.eliminar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #f5f5f5; /* Color de fondo inicial */
+    color: #000; /* Color de texto inicial */
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.eliminar:hover {
+    background-color: #ff4d4d; /* Color de fondo al pasar el mouse */
+    color: #fff; /* Color de texto al pasar el mouse */
+}
+
+.boton-container {
+    position: relative;
+  }
+  
+  .FcLike,
+  .FcLikePlaceholder {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+  }
+  
+  .GrContactInfo {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    color: initial; /* Define el color inicial */
+    transition: color 0.3s ease; /* Agrega una transición suave para el cambio de color */
+  }
+  
+  .GrContactInfo:hover {
+    color: #6278F7; 
+  }
+  

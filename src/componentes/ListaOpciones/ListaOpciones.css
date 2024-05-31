@@ -1,0 +1,27 @@
+.lista-opciones label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 10px;
+}
+
+.lista-opciones select {
+    width: 100%;
+    background-color: #f6f6f600;
+    border: none;
+    padding: 30px 20px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #ddd;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.lista-opciones select:hover {
+    border-bottom: 2px solid #6278F7;
+}
+
+.lista-opciones select:focus {
+    border-bottom: 2px solid #6278F7;
+   
+}
